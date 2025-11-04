@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #004e92, #000428);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  color: #ffd700;
+  font-size: 2em;
+}
+
+header p {
+  color: #ddd;
+  font-size: 1.1em;
+}
+
+/* Navigation Bar */
+nav {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro h2 {
+  color: #ffd700;
+  font-size: 1.8em;
+}
+
+.intro p {
+  color: #eee;
+  font-size: 1.1em;
+}
+
+/* Food Container */
+.food-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  flex-wrap: wrap; /* ensures responsiveness */
+}
+
+/* Each Food Card */
+.food-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.food-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.food-card h3 {
+  color: #ffd700;
+  margin-top: 10px;
+}
+
+.food-card p {
+  color: #ddd;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+  font-size: 14px;
+}

@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #f5f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 4px solid #90e0ef;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #023e8a;
+  padding: 0.8rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  color: #90e0ef;
+  transform: scale(1.1);
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to bottom, #caf0f8, #ffffff);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.1rem;
+}
+
+.hero img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+
+/* Section styling */
+.section {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+.section h2 {
+  color: #023e8a;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00b4d8;
+  padding-left: 0.6rem;
+}
+
+.section p, .section ul {
+  font-size: 1rem;
+  color: #333;
+}
+
+.section ul {
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #023e8a;
+  color: white;
+  padding: 1.2rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+
+footer p {
+  letter-spacing: 0.5px;
+}
